@@ -5,8 +5,8 @@ class HeaderWrapper extends Component {
     return (
       <div className='header-wrapper'>
         ...HeaderWrapper
-        <h1>Welcome to HOA Manager!</h1>
-        <p>Please Login to continue</p>
+        <h1 className='header-wrapper__title'>Welcome to HOA Manager!</h1>
+        <p className='header-wrapper__subtitle'>Please Login to continue</p>
         {this.props.children}
       </div>
     )
