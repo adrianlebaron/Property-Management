@@ -4,7 +4,7 @@ class SignIn extends Component {
   render(){
     return (
       <div className='sign-in'>
-        ...signin
+        signin
       </div>
     )
   }
