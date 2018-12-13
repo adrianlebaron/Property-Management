@@ -7,8 +7,11 @@ import React, { Component } from "react";
 
  class SignupForm extends Component {
    render() {
+
+    const { handleSubmit } = this.props;
+
      return (
-       <form className="sign-up-form">
+      <form onSubmit={handleSubmit} className="sign-up-form">
          <FormTitle className="sign-up-form__title" text="New User" />
          <Field
            className="sign-up-form__fullname"
@@ -54,7 +57,7 @@ import React, { Component } from "react";
          </div>
          
        </form>
-     );
+     ); 
    }
  }
 

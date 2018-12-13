@@ -35,6 +35,7 @@
   "dependencies": {
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
+    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
@@ -69,6 +70,7 @@
     "redux-form": "^8.0.4",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
+    "thunk": "0.0.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-middleware": "^3.1.3",
     "webpack-dev-server": "^3.1.5",

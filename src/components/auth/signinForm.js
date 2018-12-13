@@ -12,7 +12,7 @@ class SigninForm extends Component {
         <FormTitle className="sign-in-form__title" text="Login" />
         <Field
           className="sign-in-form__email"
-          placeholder="Enter Email"
+          placeholder="Enter Email" 
           name="email"
           type="email"
           title="Email"
