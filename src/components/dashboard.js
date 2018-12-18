@@ -1,40 +1,50 @@
 import React, { Component } from "react";
 
- import TabNav from './tabnav';
+import TabNav from './tabnav';
 
- class Dashboard extends Component {
+class Dashboard extends Component {
 
-     constructor(props) {
-         super(props);
+    constructor(props) {
+        super(props);
 
-         this.state = {
-             tabs: [
-                 {
-                     title: 'Newsletter',
-                     active: true,
-                     component: <h4>Hey There - Newsletter</h4>
-                 },
-                 {
-                     title: 'Requests',
-                     active: false,
-                     component: <h4>Hey There - Requests</h4>
-                 },
-             ]
-         }
-     }
+        this.state = {
+            tabs: [
+                {
+                    title: 'Newsletter',
+                    active: true,
+                    component: <h4>Hey There - Newsletter</h4>
+                },
+                {
+                    title: 'Requests',
+                    active: false,
+                    component: <h4>Hey There - Requests</h4>
+                },
+            ]
+        }
+    }
 
-     handleTabChange = (title) => {
-        console.log('clicked on tab', title);
+    handleTabChange = (title) => {
+        const tabs = this.state.tabs;
+
+        tabs.map(tab => {
+            tab.active = false
+            if(tab.title == title) {
+                tab.active = true
+            } else { 
+                tab.active =  false
+            }
+        })
+        this.setState({ tabs });
     }
 
     render() {
-      return (
+        return (
         <div className='dashboard'>
             <TabNav handleClick={(title) => this.handleTabChange(title)} tabs={this.state.tabs}/>
         </div>
-      )
-  }
+        )
+    }
 
- }
+}
 
- export default Dashboard;
+export default Dashboard;
