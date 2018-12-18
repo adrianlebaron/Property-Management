@@ -22,4 +22,4 @@ class SignIn extends Component {
   }
 }
 
-export default SignIn; 
+export default connect(null, actions)(SignIn);

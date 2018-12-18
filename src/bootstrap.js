@@ -36,7 +36,7 @@ function main() {
             <Route path='/signUp' component={SignUp}/>
             <Route path='/tabnav' component={TabNav}/>
 
-             <Route path='/dashboard' component={requireAuth(Dashboard)}/>
+             <Route path='/dashboard' component={Dashboard}/>
           </Layout>
 
         </Switch>
