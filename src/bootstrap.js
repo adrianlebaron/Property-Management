@@ -22,6 +22,7 @@ import SignUp from './components/auth/signUp';
 
 //DASHBOARD
 import Dashboard from './components/dashboard';
+import TabNav from './components/tabnav';
 
 
 function main() {
@@ -33,6 +34,7 @@ function main() {
             <Route path='/' exact component={SignIn}/>
             <Route path='/signIn'component={SignIn}/>
             <Route path='/signUp' component={SignUp}/>
+            <Route path='/tabnav' component={TabNav}/>
 
              <Route path='/dashboard' component={requireAuth(Dashboard)}/>
           </Layout>
