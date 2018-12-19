@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,QAAQ,EAAE,mBAAmB;EAE7B,OAAO,EAAE,IAAI;EACb,kBAAkB,GAAG,CAAC,CAAC,KAAK,EAAE,KAAK,EAAE,KAAK,CAAC,SAAS,EAAE,GAAG,EAAE,SAAS,CAAC,CAAC;EACtE,qBAAqB,GAAG,KAAK,CAAC,SAAS,EAAE,KAAK,EAAE,KAAK,CAAC,SAAS,CAAC,YAAY,EAAE,GAAG,EAAE,YAAY;CAEhG",
+    "sources": [
+        "newsletter-grid.scss"
+    ],
+    "names": [],
+    "file": "newsletter-grid.css"
+}

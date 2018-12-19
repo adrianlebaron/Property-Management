@@ -1,0 +1,36 @@
+.sign-in {
+  grid-row: content-s/content-e;
+  grid-column: content-s/content-e;
+}
+
+.sign-in-form {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.sign-in-form__title {
+  width: 100%;
+}
+
+.sign-in-form__email {
+  margin-top: 44px;
+}
+
+.sign-in-form__password {
+  margin-top: 4rem;
+}
+
+.sign-in-form__login {
+  margin-top: 8.8rem;
+}
+
+.sign-in-form__text-links {
+  margin-top: 5.2rem;
+}
+
+.sign-in-form__email, .sign-in-form__password {
+  -webkit-transform: translateX(-64.5px);
+          transform: translateX(-64.5px);
+}
+/*# sourceMappingURL=signin.css.map */
