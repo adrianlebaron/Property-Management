@@ -15,7 +15,8 @@
         "newsletter-grid.scss",
         "newsletter-box.scss",
         "dashboard.scss",
-        "newsletter-archive.scss"
+        "newsletter-archive.scss",
+        "newsletter-latest.scss"
     ],
     "names": [],
     "file": "main.css"
