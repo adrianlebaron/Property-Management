@@ -23,6 +23,11 @@
 
 .newsletter-latest__title {
   grid-row: s/m;
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5rem;
+  text-align: center;
 }
 
 .newsletter-latest__image {
@@ -32,5 +37,11 @@
 
 .newsletter-latest__body {
   grid-row: m/e;
+}
+
+.newsletter-latest__body p {
+  margin: 6.3rem 6.05rem;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=newsletter-latest.css.map */

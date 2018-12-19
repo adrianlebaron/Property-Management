@@ -1,4 +1,8 @@
 .newsletter-grid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4.7rem;
   grid-row: content-s/content-e;
   display: -ms-grid;
   display: grid;
@@ -6,8 +10,7 @@
       grid-template-rows: [s box-s] 16rem [box-e archive-s] 1fr [archive-e e];
   -ms-grid-columns: [box-s archive-s] 16rem [box-e archive-e latest-s] 960px [latest-e];
       grid-template-columns: [box-s archive-s] 16rem [box-e archive-e latest-s] 960px [latest-e];
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  grid-row-gap: 3.85rem;
+  grid-column-gap: 6.1rem;
 }
 /*# sourceMappingURL=newsletter-grid.css.map */
