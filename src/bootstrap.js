@@ -23,6 +23,7 @@ import SignUp from './components/auth/signUp';
 //DASHBOARD
 import Dashboard from './components/dashboard';
 import TabNav from './components/tabnav';
+import NewNewsletter from './components/newsletter/newsletterNew';
 
 
 function main() {
@@ -37,6 +38,7 @@ function main() {
             <Route path='/tabnav' component={TabNav}/>
 
              <Route path='/dashboard' component={Dashboard}/>
+             <Route path='/newsletter/new' component={requireAuth(NewNewsletter)}/>
           </Layout>
 
         </Switch>

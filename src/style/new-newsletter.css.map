@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,WAAW,EAAE,mBAAmB;EAChC,QAAQ,EAAE,mBAAmB;CAC9B",
+    "sources": [
+        "new-newsletter.scss"
+    ],
+    "names": [],
+    "file": "new-newsletter.css"
+}
