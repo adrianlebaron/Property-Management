@@ -38,7 +38,7 @@ function main() {
             <Route path='/tabnav' component={TabNav}/>
 
              <Route path='/dashboard' component={Dashboard}/>
-             <Route path='/newsletter/new' component={requireAuth(NewNewsletter)}/>
+             <Route path='/newsletter/new' component={NewNewsletter}/>
           </Layout>
 
         </Switch>
