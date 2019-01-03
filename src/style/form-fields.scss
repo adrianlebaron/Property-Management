@@ -54,6 +54,19 @@
 }
 
 // BUTTON
+.form-button,
+.form-button-small {
+    &__button {
+        transition: all .2s ease;
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            transform: scale(0.95) translateY(2.05px);
+        }
+    }
+}
+
 
 .form-button {
     &__button {
@@ -86,7 +99,7 @@
    }
 
     &__danger {
-       border: none;
+       border: 1px solid $color-red-BA;
        color: white;
        background-color: $color-red-BA;
    }
